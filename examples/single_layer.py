@@ -34,7 +34,7 @@ def temperature(date):
     return T, wetness, param.pH
 
 
-def run(som, input_functions, doc_retention_time=0.0):
+def run(som, input_functions, doc_retention_time=0.0, verbose=False):
     """
     Runs the model for 19 years with daily timesteps
     :param som: Initial soil organic matter conditions
@@ -42,6 +42,7 @@ def run(som, input_functions, doc_retention_time=0.0):
     :param doc_retention_time:
     :return:
     """
+    som = sum(som, decomp.SOM())
     input_function = lambda date: sum((ifunc(date) for ifunc in input_functions), decomp.SOM())
     dates = np.arange(plt.datetime64('2000-01-01'), plt.datetime64('2019-01-01'))
     som_state = np.NaN * np.zeros((len(dates), 6))
@@ -50,6 +51,8 @@ def run(som, input_functions, doc_retention_time=0.0):
     CN = np.NaN * np.zeros(dates.shape)
     doc_retention_rate = 1 - (1 / doc_retention_time) if doc_retention_time else 0.0
     for i, d in enumerate(dates):
+        if verbose:
+            print('{i:4d}:{d} Ctot={som.C:0.5g}, CN={som.CN:0.4g}'.format(i=i, d=d, som=som))
         som += input_function(d)
         som_state[i] = [c for _, c in som]
         CN[i] = som.CN
@@ -108,20 +111,23 @@ def cli():
     def daily_function(somname):
         return lambda date: som_dict[somname] / 365
 
+    def initial_som(somname):
+        return som_dict[somname]
+
     parser = argparse.ArgumentParser()
     parser.add_argument('--docretention', '-r', type=float, default=0.0)
-    parser.add_argument('--yearly', '-y', choices=som_dict, nargs='*')
-    parser.add_argument('--daily', '-d', choices=som_dict, nargs='*')
-    parser.add_argument('initial', nargs='*')
+    parser.add_argument('--yearly', '-y', nargs='*', type=yearly_function, default=[])
+    parser.add_argument('--daily', '-d', nargs='*', type=daily_function, default=[])
+    parser.add_argument('initial', nargs='*', type=initial_som)
+    parser.add_argument('--verbose', '-v', action='store_true')
+    parser.add_argument('--plot', '-p', action='store_true')
     args = parser.parse_args()
-    initial = sum((som_dict[a] for a in args.initial), decomp.SOM()) if args.initial else decomp.SOM()
-    yearly = [yearly_function(a) for a in args.yearly] if args.yearly else []
-    daily = [daily_function(a) for a in args.daily] if args.daily else []
-    return initial, yearly + daily, args.docretention
+    return args
 
 
 if __name__ == '__main__':
-    initial, input_functions, doc_retention_time = cli()
-    result = run(initial, input_functions, doc_retention_time)
-    plot(*result)
-    plt.show()
+    args = cli()
+    result = run(args.initial, args.daily + args.yearly, args.docretention, args.verbose)
+    if args.plot:
+        plot(*result)
+        plt.show()

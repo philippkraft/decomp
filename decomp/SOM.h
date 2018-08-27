@@ -1,9 +1,7 @@
 #ifndef SOM_h__
 #define SOM_h__
 #include "SOMcomponent.h"
-namespace DECOMP {
 
-	const std::string VERSION = std::string("DECOMP++ compiled ") + std::string(__DATE__) + " - " + std::string(__TIME__);
 
 	/// @brief A class representing Soil Organic Matter (SOM) with the decomposition properties from Wallman 2006 (https://doi.org/10.1016/j.envsoft.2004.09.026)
 	///
@@ -38,14 +36,14 @@ namespace DECOMP {
 		std::valarray<double> C_pools;
 		static component_set pool_types;
 	public:
-		static component_set& get_pool_types();
+		static const component_set& get_pool_types();
 		static SOMcomponent add_component(std::string name, bool is_stored,double k_pot, double E_a, double K_w, double n_w, double K_pH, double m_pH);
 
-		double 
+		double
+            N,     ///< Actual N content in the soil organic matter
 			CNmin, ///< Minimal natural C/N ratio (default 15) (needed for N immobilisation)
 			CNmax; ///< Maximum natural C/N ration (default 40) (needed for N immobilisation)
 		/// N-content
-		double N;
 		double get_C_pool(int index) const;
 		void set_C_pool(int index, double pool_size);
 
@@ -113,7 +111,7 @@ namespace DECOMP {
 
 		std::string to_string() const;
 	};
-	SOM operator*(double left, const SOM& right);
+	SOM operator* (double left, const SOM& right);
 
 	SOM wood_litter();
 	SOM leave_litter();
@@ -122,6 +120,5 @@ namespace DECOMP {
 
 
 
-}
 
 #endif // SOM_h__

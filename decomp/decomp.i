@@ -25,20 +25,20 @@
 
 %include "SOMcomponent.h"
 
-%extend DECOMP::SOMcomponent {
+%extend SOMcomponent {
 std::string __repr__() {return $self->Name;}
 }
 
 %echo "SOMcomponent ok, now SOM..."
 
-%template(component_set) std::vector<DECOMP::SOMcomponent>;
-%attribute(DECOMP::SOM, double, C, get_C_pool);
-%attribute(DECOMP::SOM, double, CN, get_CN);
+%template(component_set) std::vector<SOMcomponent>;
+%attribute(SOM, double, C, get_C_pool);
+%attribute(SOM, double, CN, get_CN);
 
 %include "SOM.h"
 
 
-%extend DECOMP::SOM {
+%extend SOM {
 	double __getitem__(const SOMcomponent& comp)
 	{
 		return $self->get_C_pool(comp.Id);
@@ -62,8 +62,6 @@ std::string __repr__() {return $self->Name;}
 	}
 }
 
-
 %pythoncode {
 	EDC, CELL, LIGN, RC, DOC, CO2 = SOM.get_pool_types()
 }
-

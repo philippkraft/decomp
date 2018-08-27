@@ -1,6 +1,6 @@
 # Specifics
 decomp/decomp.py
-decomp/DECOMP_wrap.cpp
+decomp/decomp_wrap.cpp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

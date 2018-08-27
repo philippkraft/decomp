@@ -7,7 +7,7 @@
 
 #include "SOMcomponent.h"
 #include <cmath>
-namespace DECOMP {
+
 
   double SOMcomponent::decomp( double T, double wetness, double pH)	const
     {
@@ -18,19 +18,21 @@ namespace DECOMP {
 			double _k_pot,double _E_a,
 			double _K_w, double _n_w,
 			double _K_pH, double _m_pH)
-	: Id(count++), Name(name), k_pot(_k_pot), E_a(_E_a),
-	K_w(_K_w), n_w(_n_w), K_pH(_K_pH), m_pH(_m_pH), is_stored(_is_stored)
+	: Id(count++), Name(name), is_stored(_is_stored),
+	  k_pot(_k_pot), E_a(_E_a),
+	  K_w(_K_w), n_w(_n_w),
+	  K_pH(_K_pH), m_pH(_m_pH)
 	{
 	}
 
   double SOMcomponent::f_Temp(double T) const
-	{
-		double
-			R=8.314*0.001,
-			T_R = 5.0,
-			arr_gamma=this->E_a/(R*(T_R+273.16))-this->E_a/(R*(T+273.16));
-		return exp(arr_gamma);
-	}
+    {
+        double
+            R=8.314*0.001,
+            T_R = 5.0,
+            arr_gamma=this->E_a/(R*(T_R+273.16))-this->E_a/(R*(T+273.16));
+        return exp(arr_gamma);
+    }
 
   double SOMcomponent::f_pH(double pH) const
   {
@@ -45,10 +47,11 @@ namespace DECOMP {
   }
 
 	SOMcomponent::SOMcomponent(const SOMcomponent & copy)
-	: 	Id(copy.Id), Name(copy.Name),
+	: 	products(copy.products),
+	    Id(copy.Id), Name(copy.Name), is_stored(copy.is_stored),
 		k_pot(copy.k_pot), E_a(copy.E_a),
-		K_w(copy.K_w), n_w(copy.n_w), K_pH(copy.K_pH), m_pH(copy.m_pH),
-		products(copy.products), is_stored(copy.is_stored)
+		K_w(copy.K_w), n_w(copy.n_w),
+		K_pH(copy.K_pH), m_pH(copy.m_pH)
     {
 
     }
@@ -66,7 +69,6 @@ namespace DECOMP {
   }
 
 	int SOMcomponent::count(0);
-}
 
 
 
