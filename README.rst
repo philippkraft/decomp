@@ -1,4 +1,5 @@
 |github| |appveyor|
+
 .. |github| image:: https://badge.fury.io/gh/philippkraft%2Fdecomp.svg
     :target: https://github.com/philippkraft/decomp
 .. |appveyor| image:: https://ci.appveyor.com/api/projects/status/ju30o7wbxp2p0udo?svg=true
