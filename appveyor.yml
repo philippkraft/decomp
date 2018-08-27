@@ -6,15 +6,33 @@ environment:
     # The list here is complete (excluding Python 2.6, which
     # isn't covered by this document) at the time of writing.
 
-    - PYTHON: "C:\\Python36-x64"
-    - PYTHON: "C:\\Python35-x64"
+    - PYTHON: "C:\\Python37-x64"
     - PYTHON: "C:\\Python27-x64"
 
-    - PYTHON: "C:\\Python36"
-    - PYTHON: "C:\\Python35"
+    - PYTHON: "C:\\Python37"
     - PYTHON: "C:\\Python27"
 
+cache:
+
+  # SWIG handling from opensim-core
+
+  ## Cache swig, which we install via AppVeyor.
+  # The syntax here is <dir-to-cache> -> <invalidated-when-this-file-changes>
+  # If the appveyor.yml script is changed, then the cache is invalidated.
+  # https://www.appveyor.com/docs/build-cache/
+  - C:\ProgramData\chocolatey\bin -> appveyor.yml # swig.exe
+  - C:\ProgramData\chocolatey\lib -> appveyor.yml # supporting swig Lib files.
+
 install:
+
+  # SWIG handling from opensim-core
+
+  ## Use Chocolatey to install SWIG.
+  # Only install swig if it isn't present (as a result of AppVeyor's caching).
+  # SWIG 3.0.8 is the minimum required version, but it does not yet exist in
+  # Chocolatey.
+  - IF NOT EXIST C:\ProgramData\chocolatey\bin\swig.exe choco install swig #> $null
+
   # We need wheel installed to build wheels
   - "%PYTHON%\\python.exe -m pip install wheel --no-warn-script-location"
 
@@ -29,7 +47,9 @@ test_script:
   # the interpreter you're using - Appveyor does not do anything special
   # to put the Python version you want to use on PATH.
   - "%PYTHON%\\python.exe setup.py install"
-  - "%PYTHON%\\python.exe examples\\single_layer.py"
+  - cd examples
+  - "%PYTHON%\\python.exe single_layer.py"
+  - cd ..
 
 after_test:
   # This step builds your wheels.
