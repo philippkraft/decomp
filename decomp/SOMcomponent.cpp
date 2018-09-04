@@ -7,6 +7,7 @@
 
 #include "SOMcomponent.h"
 #include <cmath>
+#include <stdexcept>
 
 
   double SOMcomponent::decomp( double T, double wetness, double pH)	const
@@ -67,6 +68,31 @@
   	}
   	return res;
   }
+    void SOMcomponent::set_product(const SOMcomponent& product,double fraction) {
+        if (fraction<0 || fraction>1) throw std::runtime_error("Fraction is a number in [0..1]");
+        products[product]=fraction;
+    }
+    SOMcomponent::SOMcomponent() : Id(-1)
+    {
+        throw std::runtime_error("Never use standard ctor for SOMcomponent");
+    }
+
+    SOMcomponent& SOMcomponent::operator=(const SOMcomponent& copy)
+    {
+        if (Id!=copy.Id)
+        {
+            throw std::runtime_error("Tried to assign an SOMcomponent to another with an differing IDs");
+        }
+        products=copy.products;
+        E_a=copy.E_a;
+        k_pot=copy.k_pot;
+        K_w=copy.K_w;
+        n_w=copy.n_w;
+        K_pH=copy.K_pH;
+        m_pH=copy.m_pH;
+        Name=copy.Name;
+        return *this;
+    }
 
 	int SOMcomponent::count(0);
 

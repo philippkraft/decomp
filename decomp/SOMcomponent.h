@@ -54,10 +54,7 @@ public:
 
 
     /// Set the fraction of a product
-    void set_product(const SOMcomponent& product,double fraction) {
-        if (fraction<0 || fraction>1) throw std::runtime_error("Fraction is a number in [0..1]");
-        products[product]=fraction;
-    }
+    void set_product(const SOMcomponent& product,double fraction);
     /// Get the fraction of a product
     double get_product_fraction(const SOMcomponent& product) const {
         product_map::const_iterator fract=products.find(product);
@@ -70,31 +67,14 @@ public:
     component_set get_products() const;
     /// Calculates the decomposition rate in 1/day of this component
     double decomp(double T, double wetness, double pH) const;
-    SOMcomponent() : Id(-1)
-    {
-        throw std::runtime_error("Never use standard ctor for SOMcomponent");
-    }
+    SOMcomponent();
     bool operator<(const SOMcomponent& cmp) const { return Id<cmp.Id;}
     bool operator==(const SOMcomponent& cmp) { return Id==cmp.Id;}
     bool operator!=(const SOMcomponent& cmp) { return Id!=cmp.Id;}
+
 #ifndef SWIG
-    SOMcomponent& operator=(const SOMcomponent& copy)
-    {
-        if (Id!=copy.Id)
-        {
-            throw std::runtime_error("Tried to assign an SOMcomponent to another with an differing IDs");
-        }
-        products=copy.products;
-        E_a=copy.E_a;
-        k_pot=copy.k_pot;
-        K_w=copy.K_w;
-        n_w=copy.n_w;
-        K_pH=copy.K_pH;
-        m_pH=copy.m_pH;
-        Name=copy.Name;
-        return *this;
-    }
-#endif
+    SOMcomponent& operator=(const SOMcomponent& copy);
+ #endif
     /// Copy constructor
     SOMcomponent(const SOMcomponent& copy);
     ~SOMcomponent();

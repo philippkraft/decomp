@@ -6031,7 +6031,7 @@ SWIGINTERN PyObject *_wrap_new_SOMcomponent__SWIG_0(PyObject *SWIGUNUSEDPARM(sel
     try {
       result = (SOMcomponent *)new SOMcomponent(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6579,7 +6579,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent_set_product(PyObject *SWIGUNUSEDPARM(sel
     try {
       (arg1)->set_product((SOMcomponent const &)*arg2,arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6637,7 +6637,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent_get_product_fraction(PyObject *SWIGUNUSE
     try {
       result = (double)((SOMcomponent const *)arg1)->get_product_fraction((SOMcomponent const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6681,7 +6681,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent_get_products(PyObject *SWIGUNUSEDPARM(se
     try {
       result = ((SOMcomponent const *)arg1)->get_products();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6754,7 +6754,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent_decomp(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (double)((SOMcomponent const *)arg1)->decomp(arg2,arg3,arg4);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6788,7 +6788,7 @@ SWIGINTERN PyObject *_wrap_new_SOMcomponent__SWIG_1(PyObject *SWIGUNUSEDPARM(sel
     try {
       result = (SOMcomponent *)new SOMcomponent();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6846,7 +6846,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent___lt__(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (bool)((SOMcomponent const *)arg1)->operator <((SOMcomponent const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6904,7 +6904,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent___eq__(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (bool)(arg1)->operator ==((SOMcomponent const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -6962,7 +6962,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent___ne__(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (bool)(arg1)->operator !=((SOMcomponent const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7007,7 +7007,7 @@ SWIGINTERN PyObject *_wrap_new_SOMcomponent__SWIG_2(PyObject *SWIGUNUSEDPARM(sel
     try {
       result = (SOMcomponent *)new SOMcomponent((SOMcomponent const &)*arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7202,7 +7202,7 @@ SWIGINTERN PyObject *_wrap_delete_SOMcomponent(PyObject *SWIGUNUSEDPARM(self), P
     try {
       delete arg1;
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7246,7 +7246,7 @@ SWIGINTERN PyObject *_wrap_SOMcomponent___repr__(PyObject *SWIGUNUSEDPARM(self),
     try {
       result = SOMcomponent___repr__(arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7303,7 +7303,7 @@ SWIGINTERN PyObject *_wrap_component_set_iterator(PyObject *SWIGUNUSEDPARM(self)
     try {
       result = (swig::SwigPyIterator *)std_vector_Sl_SOMcomponent_Sg__iterator(arg1,arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7347,7 +7347,7 @@ SWIGINTERN PyObject *_wrap_component_set___nonzero__(PyObject *SWIGUNUSEDPARM(se
     try {
       result = (bool)std_vector_Sl_SOMcomponent_Sg____nonzero__((std::vector< SOMcomponent > const *)arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7391,7 +7391,7 @@ SWIGINTERN PyObject *_wrap_component_set___bool__(PyObject *SWIGUNUSEDPARM(self)
     try {
       result = (bool)std_vector_Sl_SOMcomponent_Sg____bool__((std::vector< SOMcomponent > const *)arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7435,7 +7435,7 @@ SWIGINTERN PyObject *_wrap_component_set___len__(PyObject *SWIGUNUSEDPARM(self),
     try {
       result = std_vector_Sl_SOMcomponent_Sg____len__((std::vector< SOMcomponent > const *)arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7508,7 +7508,7 @@ SWIGINTERN PyObject *_wrap_component_set___getslice__(PyObject *SWIGUNUSEDPARM(s
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7574,7 +7574,7 @@ SWIGINTERN PyObject *_wrap_component_set___setslice____SWIG_0(PyObject *SWIGUNUS
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7653,7 +7653,7 @@ SWIGINTERN PyObject *_wrap_component_set___setslice____SWIG_1(PyObject *SWIGUNUS
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7844,7 +7844,7 @@ SWIGINTERN PyObject *_wrap_component_set___delslice__(PyObject *SWIGUNUSEDPARM(s
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7902,7 +7902,7 @@ SWIGINTERN PyObject *_wrap_component_set___delitem____SWIG_0(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -7960,7 +7960,7 @@ SWIGINTERN PyObject *_wrap_component_set___getitem____SWIG_0(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8030,7 +8030,7 @@ SWIGINTERN PyObject *_wrap_component_set___setitem____SWIG_0(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8089,7 +8089,7 @@ SWIGINTERN PyObject *_wrap_component_set___setitem____SWIG_1(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8146,7 +8146,7 @@ SWIGINTERN PyObject *_wrap_component_set___delitem____SWIG_1(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8290,7 +8290,7 @@ SWIGINTERN PyObject *_wrap_component_set___getitem____SWIG_1(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8444,7 +8444,7 @@ SWIGINTERN PyObject *_wrap_component_set___setitem____SWIG_2(PyObject *SWIGUNUSE
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8630,7 +8630,7 @@ SWIGINTERN PyObject *_wrap_component_set_pop(PyObject *SWIGUNUSEDPARM(self), PyO
       }
       
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8687,7 +8687,7 @@ SWIGINTERN PyObject *_wrap_component_set_append(PyObject *SWIGUNUSEDPARM(self), 
     try {
       std_vector_Sl_SOMcomponent_Sg__append(arg1,(SOMcomponent const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8721,7 +8721,7 @@ SWIGINTERN PyObject *_wrap_new_component_set__SWIG_0(PyObject *SWIGUNUSEDPARM(se
     try {
       result = (std::vector< SOMcomponent > *)new std::vector< SOMcomponent >();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8768,7 +8768,7 @@ SWIGINTERN PyObject *_wrap_new_component_set__SWIG_1(PyObject *SWIGUNUSEDPARM(se
     try {
       result = (std::vector< SOMcomponent > *)new std::vector< SOMcomponent >((std::vector< SOMcomponent > const &)*arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8814,7 +8814,7 @@ SWIGINTERN PyObject *_wrap_component_set_empty(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (bool)((std::vector< SOMcomponent > const *)arg1)->empty();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8858,7 +8858,7 @@ SWIGINTERN PyObject *_wrap_component_set_size(PyObject *SWIGUNUSEDPARM(self), Py
     try {
       result = ((std::vector< SOMcomponent > const *)arg1)->size();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8915,7 +8915,7 @@ SWIGINTERN PyObject *_wrap_component_set_swap(PyObject *SWIGUNUSEDPARM(self), Py
     try {
       (arg1)->swap(*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -8959,7 +8959,7 @@ SWIGINTERN PyObject *_wrap_component_set_begin(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (arg1)->begin();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9004,7 +9004,7 @@ SWIGINTERN PyObject *_wrap_component_set_end(PyObject *SWIGUNUSEDPARM(self), PyO
     try {
       result = (arg1)->end();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9049,7 +9049,7 @@ SWIGINTERN PyObject *_wrap_component_set_rbegin(PyObject *SWIGUNUSEDPARM(self), 
     try {
       result = (arg1)->rbegin();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9094,7 +9094,7 @@ SWIGINTERN PyObject *_wrap_component_set_rend(PyObject *SWIGUNUSEDPARM(self), Py
     try {
       result = (arg1)->rend();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9138,7 +9138,7 @@ SWIGINTERN PyObject *_wrap_component_set_clear(PyObject *SWIGUNUSEDPARM(self), P
     try {
       (arg1)->clear();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9182,7 +9182,7 @@ SWIGINTERN PyObject *_wrap_component_set_get_allocator(PyObject *SWIGUNUSEDPARM(
     try {
       result = ((std::vector< SOMcomponent > const *)arg1)->get_allocator();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9224,7 +9224,7 @@ SWIGINTERN PyObject *_wrap_new_component_set__SWIG_2(PyObject *SWIGUNUSEDPARM(se
     try {
       result = (std::vector< SOMcomponent > *)new std::vector< SOMcomponent >(arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9267,7 +9267,7 @@ SWIGINTERN PyObject *_wrap_component_set_pop_back(PyObject *SWIGUNUSEDPARM(self)
     try {
       (arg1)->pop_back();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9316,7 +9316,7 @@ SWIGINTERN PyObject *_wrap_component_set_resize__SWIG_0(PyObject *SWIGUNUSEDPARM
     try {
       (arg1)->resize(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9372,7 +9372,7 @@ SWIGINTERN PyObject *_wrap_component_set_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(
     try {
       result = std_vector_Sl_SOMcomponent_Sg__erase__SWIG_0(arg1,arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9443,7 +9443,7 @@ SWIGINTERN PyObject *_wrap_component_set_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(
     try {
       result = std_vector_Sl_SOMcomponent_Sg__erase__SWIG_1(arg1,arg2,arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9593,7 +9593,7 @@ SWIGINTERN PyObject *_wrap_new_component_set__SWIG_3(PyObject *SWIGUNUSEDPARM(se
     try {
       result = (std::vector< SOMcomponent > *)new std::vector< SOMcomponent >(arg1,(std::vector< SOMcomponent >::value_type const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9765,7 +9765,7 @@ SWIGINTERN PyObject *_wrap_component_set_push_back(PyObject *SWIGUNUSEDPARM(self
     try {
       (arg1)->push_back((std::vector< SOMcomponent >::value_type const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9809,7 +9809,7 @@ SWIGINTERN PyObject *_wrap_component_set_front(PyObject *SWIGUNUSEDPARM(self), P
     try {
       result = (std::vector< SOMcomponent >::value_type *) &((std::vector< SOMcomponent > const *)arg1)->front();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9853,7 +9853,7 @@ SWIGINTERN PyObject *_wrap_component_set_back(PyObject *SWIGUNUSEDPARM(self), Py
     try {
       result = (std::vector< SOMcomponent >::value_type *) &((std::vector< SOMcomponent > const *)arg1)->back();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9919,7 +9919,7 @@ SWIGINTERN PyObject *_wrap_component_set_assign(PyObject *SWIGUNUSEDPARM(self), 
     try {
       (arg1)->assign(arg2,(std::vector< SOMcomponent >::value_type const &)*arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -9979,7 +9979,7 @@ SWIGINTERN PyObject *_wrap_component_set_resize__SWIG_1(PyObject *SWIGUNUSEDPARM
     try {
       (arg1)->resize(arg2,(std::vector< SOMcomponent >::value_type const &)*arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10143,7 +10143,7 @@ SWIGINTERN PyObject *_wrap_component_set_insert__SWIG_0(PyObject *SWIGUNUSEDPARM
     try {
       result = std_vector_Sl_SOMcomponent_Sg__insert__SWIG_0(arg1,arg2,(SOMcomponent const &)*arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10218,7 +10218,7 @@ SWIGINTERN PyObject *_wrap_component_set_insert__SWIG_1(PyObject *SWIGUNUSEDPARM
     try {
       std_vector_Sl_SOMcomponent_Sg__insert__SWIG_1(arg1,arg2,arg3,(SOMcomponent const &)*arg4);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10385,7 +10385,7 @@ SWIGINTERN PyObject *_wrap_component_set_reserve(PyObject *SWIGUNUSEDPARM(self),
     try {
       (arg1)->reserve(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10429,7 +10429,7 @@ SWIGINTERN PyObject *_wrap_component_set_capacity(PyObject *SWIGUNUSEDPARM(self)
     try {
       result = ((std::vector< SOMcomponent > const *)arg1)->capacity();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10472,7 +10472,7 @@ SWIGINTERN PyObject *_wrap_delete_component_set(PyObject *SWIGUNUSEDPARM(self), 
     try {
       delete arg1;
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10517,7 +10517,7 @@ SWIGINTERN PyObject *_wrap_SOM_get_pool_types(PyObject *SWIGUNUSEDPARM(self), Py
     try {
       result = (component_set *) &SOM::get_pool_types();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10628,7 +10628,7 @@ SWIGINTERN PyObject *_wrap_SOM_add_component(PyObject *SWIGUNUSEDPARM(self), PyO
     try {
       result = SOM::add_component(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10839,7 +10839,7 @@ SWIGINTERN PyObject *_wrap_SOM_get_C_pool(PyObject *SWIGUNUSEDPARM(self), PyObje
     try {
       result = (double)((SOM const *)arg1)->get_C_pool(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10902,7 +10902,7 @@ SWIGINTERN PyObject *_wrap_SOM_set_C_pool(PyObject *SWIGUNUSEDPARM(self), PyObje
     try {
       (arg1)->set_C_pool(arg2,arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -10957,7 +10957,7 @@ SWIGINTERN PyObject *_wrap_SOM___imul__(PyObject *SWIGUNUSEDPARM(self), PyObject
     try {
       result = (SOM *) &(arg1)->operator *=(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11012,7 +11012,7 @@ SWIGINTERN PyObject *_wrap_SOM___mul__(PyObject *SWIGUNUSEDPARM(self), PyObject 
     try {
       result = ((SOM const *)arg1)->operator *(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11070,7 +11070,7 @@ SWIGINTERN PyObject *_wrap_SOM___iadd__(PyObject *SWIGUNUSEDPARM(self), PyObject
     try {
       result = (SOM *) &(arg1)->operator +=((SOM const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11128,7 +11128,7 @@ SWIGINTERN PyObject *_wrap_SOM___isub__(PyObject *SWIGUNUSEDPARM(self), PyObject
     try {
       result = (SOM *) &(arg1)->operator -=((SOM const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11186,7 +11186,7 @@ SWIGINTERN PyObject *_wrap_SOM___add__(PyObject *SWIGUNUSEDPARM(self), PyObject 
     try {
       result = ((SOM const *)arg1)->operator +((SOM const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11244,7 +11244,7 @@ SWIGINTERN PyObject *_wrap_SOM___sub__(PyObject *SWIGUNUSEDPARM(self), PyObject 
     try {
       result = ((SOM const *)arg1)->operator -((SOM const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11299,7 +11299,7 @@ SWIGINTERN PyObject *_wrap_SOM___itruediv__(PyObject *SWIGUNUSEDPARM(self), PyOb
     try {
       result = (SOM *) &(arg1)->operator /=(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11354,7 +11354,7 @@ SWIGINTERN PyObject *_wrap_SOM___truediv__(PyObject *SWIGUNUSEDPARM(self), PyObj
     try {
       result = (arg1)->operator /(arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11438,7 +11438,7 @@ SWIGINTERN PyObject *_wrap_SOM_dCdt(PyObject *SWIGUNUSEDPARM(self), PyObject *ar
     try {
       result = ((SOM const *)arg1)->dCdt(arg2,arg3,arg4,arg5);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11483,7 +11483,7 @@ SWIGINTERN PyObject *_wrap_new_SOM__SWIG_0(PyObject *SWIGUNUSEDPARM(self), int n
     try {
       result = (SOM *)new SOM((SOM const &)*arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11577,7 +11577,7 @@ SWIGINTERN PyObject *_wrap_new_SOM__SWIG_1(PyObject *SWIGUNUSEDPARM(self), int n
     try {
       result = (SOM *)new SOM(arg1,arg2,arg3,arg4,arg5,arg6);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11792,7 +11792,7 @@ SWIGINTERN PyObject *_wrap_SOM_integrate(PyObject *SWIGUNUSEDPARM(self), PyObjec
     try {
       result = (arg1)->integrate(arg2,arg3,arg4,arg5);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11836,7 +11836,7 @@ SWIGINTERN PyObject *_wrap_SOM_to_string(PyObject *SWIGUNUSEDPARM(self), PyObjec
     try {
       result = ((SOM const *)arg1)->to_string();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11880,7 +11880,7 @@ SWIGINTERN PyObject *_wrap_SOM_C_get(PyObject *SWIGUNUSEDPARM(self), PyObject *a
     try {
       result = (double)SOM_C_get(arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11924,7 +11924,7 @@ SWIGINTERN PyObject *_wrap_SOM_CN_get(PyObject *SWIGUNUSEDPARM(self), PyObject *
     try {
       result = (double)SOM_CN_get(arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -11982,7 +11982,7 @@ SWIGINTERN PyObject *_wrap_SOM___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObj
     try {
       result = (double)SOM___getitem__(arg1,(SOMcomponent const &)*arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12048,7 +12048,7 @@ SWIGINTERN PyObject *_wrap_SOM___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObj
     try {
       SOM___setitem__(arg1,(SOMcomponent const &)*arg2,arg3);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12103,7 +12103,7 @@ SWIGINTERN PyObject *_wrap_SOM___rmul__(PyObject *SWIGUNUSEDPARM(self), PyObject
     try {
       result = SOM___rmul__(arg1,arg2);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12147,7 +12147,7 @@ SWIGINTERN PyObject *_wrap_SOM___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject
     try {
       result = SOM___repr__(arg1);
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12190,7 +12190,7 @@ SWIGINTERN PyObject *_wrap_delete_SOM(PyObject *SWIGUNUSEDPARM(self), PyObject *
     try {
       delete arg1;
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12235,7 +12235,7 @@ SWIGINTERN PyObject *_wrap_wood_litter(PyObject *SWIGUNUSEDPARM(self), PyObject 
     try {
       result = wood_litter();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12269,7 +12269,7 @@ SWIGINTERN PyObject *_wrap_leave_litter(PyObject *SWIGUNUSEDPARM(self), PyObject
     try {
       result = leave_litter();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12303,7 +12303,7 @@ SWIGINTERN PyObject *_wrap_root_litter(PyObject *SWIGUNUSEDPARM(self), PyObject 
     try {
       result = root_litter();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
@@ -12337,7 +12337,7 @@ SWIGINTERN PyObject *_wrap_pure_DOC(PyObject *SWIGUNUSEDPARM(self), PyObject *ar
     try {
       result = pure_DOC();
     } 
-    /*@SWIG:/usr/share/swig3.0/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    /*@SWIG:C:\Apps\swigwin-3.0.12\Lib\typemaps\exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
       SWIG_exception_fail(SWIG_ValueError, e.what() );
     } catch (std::domain_error& e) {
