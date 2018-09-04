@@ -8,6 +8,7 @@ from __future__ import print_function, division
 
 import io
 import re
+import sys
 
 from distutils.sysconfig import customize_compiler
 from setuptools import setup, Extension
@@ -69,10 +70,6 @@ class DecompBuildExt(build_ext):
         open('decomp/decomp.py', 'w').write(decomp_py)
 
 
-ext = Extension('decomp._decomp',
-                sources=['decomp/decomp.i', 'decomp/SOM.cpp', 'decomp/SOMcomponent.cpp'],
-                swig_opts=['-c++', '-Wextra', '-w512', '-w511', '-O', '-keyword', '-castmode'],
-                )
 
 
 def get_version():
@@ -81,7 +78,27 @@ def get_version():
             return line.split('=')[-1].strip().strip("'")
 
 
+def pop_arg(arg):
+    if arg in sys.argv:
+        sys.argv.remove(arg)
+        return True
+    else:
+        return False
+
+
 if __name__ == '__main__':
+
+    if pop_arg('swig'):
+        print('Generate wrapper with swig')
+        wrapper = 'decomp/decomp.i'
+    else:
+        print('Use pregenerated wrapper')
+        wrapper = 'decomp/decomp_wrap.cpp'
+    print('    ->', wrapper)
+    ext = Extension('decomp._decomp',
+                    sources=['decomp/SOM.cpp', 'decomp/SOMcomponent.cpp', wrapper],
+                    swig_opts=['-c++', '-Wextra', '-w512', '-w511', '-O', '-keyword', '-castmode'],
+                    )
 
     classifiers = [
         'Development Status :: 4 - Beta',

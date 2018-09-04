@@ -6,7 +6,7 @@ together with the N enrichment over time
 
 import decomp
 from math import cos, pi
-import pylab as plt
+
 import numpy as np
 import argparse
 
@@ -44,7 +44,7 @@ def run(som, input_functions, doc_retention_time=0.0, verbose=False):
     """
     som = sum(som, decomp.SOM())
     input_function = lambda date: sum((ifunc(date) for ifunc in input_functions), decomp.SOM())
-    dates = np.arange(plt.datetime64('2000-01-01'), plt.datetime64('2019-01-01'))
+    dates = np.arange(np.datetime64('2000-01-01'), np.datetime64('2019-01-01'))
     som_state = np.NaN * np.zeros((len(dates), 6))
     som_flux = np.NaN * np.zeros((len(dates), 6))
     N_flux = np.NaN * np.zeros(dates.shape)
@@ -129,5 +129,6 @@ if __name__ == '__main__':
     args = cli()
     result = run(args.initial, args.daily + args.yearly, args.docretention, args.verbose)
     if args.plot:
+        import pylab as plt
         plot(*result)
         plt.show()
